@@ -5,6 +5,9 @@ This PowerShell script allows you to generate Wake-On-LAN (WOL) scripts or execu
 
 This might come in handy if you need to give the ability to inexperienced Windows users to wake up remotely a host supporting WOL. Simply put on their Desktop the generated script (or executable) and the user will be able to send a magic packet to a specific host by simply double-clicking on it.
 
+## Download
+If you're not willing to modify or compile your own executable, you can download the latest release from the [releases section here](https://github.com/imwaffe/WOLScriptsCreator/releases/latest).
+
 ## Prerequisites
 - PowerShell 5.1 or higher (for the creation of the wake scripts)
 - PowerShell 3.0 or higher (for the execution of the generated scripts)
@@ -12,7 +15,7 @@ This might come in handy if you need to give the ability to inexperienced Window
 
 ## Usage
 1. Clone or download the repository.
-2. Run the script in a PowerShell environment.
+2. Run the script in a PowerShell environment or the Exe (see the [Make section](##-Make.ps1:-Compile-the-executable-for-the-WOL-Scripts-Creator) or download the Exe from the [releases](https://github.com/imwaffe/WOLScriptsCreator/releases/latest).)
 3. Follow the prompts to input the target PC names or IP addresses.
 4. The script will generate scripts or executables for waking up a single specified computer in a folder inside the path where the executable is run from.
 
