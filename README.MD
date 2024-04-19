@@ -7,14 +7,14 @@ This might come in handy if you need to give the ability to inexperienced Window
 
 ## Prerequisites
 - PowerShell 5.1 or higher (for the creation of the wake scripts)
-- PowerShell 3.0 or highter (for the execution of the generated scripts)
+- PowerShell 3.0 or higher (for the execution of the generated scripts)
 - PS2EXE module (optional, for creating executables)
 
 ## Usage
 1. Clone or download the repository.
 2. Run the script in a PowerShell environment.
 3. Follow the prompts to input the target PC names or IP addresses.
-4. The script will generate scripts or executables for waking up a single specified computer.
+4. The script will generate scripts or executables for waking up a single specified computer in a folder inside the path where the executable is run from.
 
 ## PS2EXE support
 If PS2EXE is installed in your system, the script automatically creates executables, otherwise it creates .bat files that will execute a powershell code to send the magic packet. The choice to create .bat files has been made in order to create a file that can be run by simply double clicking on it.
