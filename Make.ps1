@@ -12,8 +12,8 @@ GitHub/Twitter/Instagram: @imwaffe`n`n" -ForegroundColor DarkGray
 # Paths and filenames
 $localePath = ".\locale"
 $localeFilename = "strings.psd1"
-$mainScriptFile = '.\WOL Launcher Creator.ps1'
-$executableFile = '.\bin\WOL Launcher Creator.exe'
+$mainScriptFile = '.\WOLScriptsCreator.ps1'
+$executableFile = '.\bin\WOLScriptsCreator.exe'
 $tmpPsScript = "tmpLocalizedScript.ps1"
 $defaultLocale = "en-US"
 
